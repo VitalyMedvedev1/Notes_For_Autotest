@@ -1,0 +1,12 @@
+ru/liga/nfat/configuration/Configuration.java
+ ru.liga.nfat.configuration.Configuration
+ru/liga/nfat/NotesApplication.java
+ ru.liga.nfat.NotesApplication
+ru/liga/nfat/contoller/ClientController.java
+ ru.liga.nfat.contoller.ClientController
+ru/liga/nfat/domain/ClientDto.java
+ ru.liga.nfat.domain.ClientDto
+ru/liga/nfat/service/ClientServiceImpl.java
+ ru.liga.nfat.service.ClientServiceImpl
+ru/liga/nfat/service/ClientService.java
+ ru.liga.nfat.service.ClientService
