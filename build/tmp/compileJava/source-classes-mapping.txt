@@ -11,7 +11,16 @@ ru/liga/nfat/repository/ClientRepository.java
  ru.liga.nfat.repository.ClientRepository
 ru/liga/nfat/contoller/ClientController.java
  ru.liga.nfat.contoller.ClientController
+ru/liga/nfat/domain/entity/Color.java
+ ru.liga.nfat.domain.entity.Color
+ ru.liga.nfat.domain.entity.Color$ColorBuilder
 ru/liga/nfat/service/impl/ClientServiceImpl.java
  ru.liga.nfat.service.impl.ClientServiceImpl
+ru/liga/nfat/domain/entity/Note.java
+ ru.liga.nfat.domain.entity.Note
+ ru.liga.nfat.domain.entity.Note$NoteBuilder
 ru/liga/nfat/domain/builder/ClientBuilder.java
  ru.liga.nfat.domain.builder.ClientBuilder
+ru/liga/nfat/domain/entity/SubNote.java
+ ru.liga.nfat.domain.entity.SubNote
+ ru.liga.nfat.domain.entity.SubNote$SubNoteBuilder

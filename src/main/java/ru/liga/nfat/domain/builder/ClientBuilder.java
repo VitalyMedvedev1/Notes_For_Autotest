@@ -9,6 +9,7 @@ import ru.liga.nfat.domain.entity.Client;
 public class ClientBuilder {
 
     public Client build(ClientDto clientDto){
+        String s = BCrypt.hashpw(clientDto.getPassword(), BCrypt.gensalt());
         return Client.builder()
                 .login(clientDto.getLogin())
                 .password(BCrypt.hashpw(clientDto.getPassword(), BCrypt.gensalt()))
