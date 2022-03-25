@@ -1,10 +1,10 @@
 package ru.liga.nfat.service;
 
-import ru.liga.nfat.domain.ClientDto;
+import ru.liga.nfat.domain.dto.ClientDto;
 
 public interface ClientService {
 
-    ClientDto registrationUser();
+    boolean registrationUser(ClientDto clientDto);
 
-    boolean authorizationUser();
+    boolean authorizationUser(ClientDto clientDto);
 }

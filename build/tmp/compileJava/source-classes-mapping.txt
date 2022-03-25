@@ -1,12 +1,17 @@
-ru/liga/nfat/configuration/Configuration.java
- ru.liga.nfat.configuration.Configuration
+ru/liga/nfat/domain/dto/ClientDto.java
+ ru.liga.nfat.domain.dto.ClientDto
 ru/liga/nfat/NotesApplication.java
  ru.liga.nfat.NotesApplication
-ru/liga/nfat/contoller/ClientController.java
- ru.liga.nfat.contoller.ClientController
-ru/liga/nfat/domain/ClientDto.java
- ru.liga.nfat.domain.ClientDto
-ru/liga/nfat/service/ClientServiceImpl.java
- ru.liga.nfat.service.ClientServiceImpl
+ru/liga/nfat/domain/entity/Client.java
+ ru.liga.nfat.domain.entity.Client
+ ru.liga.nfat.domain.entity.Client$ClientBuilder
 ru/liga/nfat/service/ClientService.java
  ru.liga.nfat.service.ClientService
+ru/liga/nfat/repository/ClientRepository.java
+ ru.liga.nfat.repository.ClientRepository
+ru/liga/nfat/contoller/ClientController.java
+ ru.liga.nfat.contoller.ClientController
+ru/liga/nfat/service/impl/ClientServiceImpl.java
+ ru.liga.nfat.service.impl.ClientServiceImpl
+ru/liga/nfat/domain/builder/ClientBuilder.java
+ ru.liga.nfat.domain.builder.ClientBuilder
